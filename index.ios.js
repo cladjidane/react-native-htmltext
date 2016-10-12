@@ -4,13 +4,13 @@
  */
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 var {
   AppRegistry,
   StyleSheet,
   Text,
   View,
-} = React;
+} = require('react-native');
 var HtmlText = require('./lib/HtmlText')
 
 var HtmlTextApp = React.createClass({
